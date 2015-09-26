@@ -1,14 +1,19 @@
-img {
-  width: 5em;
-  height: auto;
-  float: left;
-  margin-right: 0.5em;
-  clear: both;
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    /*font-family: 'Raleway', sans-serif;
+    font-weight: 300;*/
+    outline: 1px solid red;
 }
+
+/*##################
+    Tags
+##################*/
 
 header, footer {
   margin: 1em auto 1em auto;
-  border: 2px solid black;
   padding: 0.5em;
   clear: both;
 }
@@ -29,7 +34,6 @@ p {
 
 section {
   height: auto;
-  border: solid 2px black;
   margin: auto;
 }
 
@@ -38,18 +42,57 @@ article {
   min-height: 7em;
 }
 
-.main {
-  border: 3px solid green;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 0;
+figcaption {
+  font-size: 1.5em;
+  text-align: left;
+  line-height: 1.25em;
 }
 
-.book-list {
-  background: url(../images/book_tower.jpg) no-repeat center center fixed;
-  -webkit-background-size: 100% auto;
-  -moz-background-size: 100% auto;
-  -o-background-size: 100% auto;
-  background-size: 100% 1klsjvbljadsvd;
-  background-position: left bottom;
+p span, figcaption span{
+  font-style: oblique;
+}
+
+figcaption span {
+  font-size: 0.75em;
+}
+
+/*#########################
+    Content Section Classes
+    Excludes img classes
+#########################*/
+
+.grid {
+    margin: 1em auto 0;
+    max-width: 1200px;
+    width: 100
+    justify-content: center;
+}
+
+.row {
+    margin-bottom: 2em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*########################
+    Image tags and classes
+########################*/
+
+img {
+  max-width: 300px;
+  width: 40%;
+  height: auto;
+  float: left;
+  margin-right: 0.5em;
+  clear: both;
+}
+
+.lead-img {
+  max-width: 450px;
+  width: 100%;
+  height auto;
+}
+
+.body-img {
+  margin-top: 0.5em;
 }
