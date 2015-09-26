@@ -1,0 +1,55 @@
+img {
+  width: 5em;
+  height: auto;
+  float: left;
+  margin-right: 0.5em;
+  clear: both;
+}
+
+header, footer {
+  margin: 1em auto 1em auto;
+  border: 2px solid black;
+  padding: 0.5em;
+  clear: both;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h4 {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+
+p {
+  margin-top: 0.25em;
+}
+
+section {
+  height: auto;
+  border: solid 2px black;
+  margin: auto;
+}
+
+article {
+  border: 2px solid red;
+  min-height: 7em;
+}
+
+.main {
+  border: 3px solid green;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0;
+}
+
+.book-list {
+  background: url(../images/book_tower.jpg) no-repeat center center fixed;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  background-size: 100% 1klsjvbljadsvd;
+  background-position: left bottom;
+}
