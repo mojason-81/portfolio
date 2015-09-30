@@ -4,8 +4,8 @@
     -ms-box-sizing: border-box;
     box-sizing: border-box;
     /*font-family: 'Raleway', sans-serif;
-    font-weight: 300;*/
-    outline: 1px solid red;
+    font-weight: 300;
+    outline: 1px solid red;*/
 }
 
 /*##################
@@ -14,6 +14,7 @@
 
 figure {
   margin: 0;
+  height: 30em;
 }
 
 header, footer {
@@ -67,6 +68,10 @@ figcaption span {
 .book {
   text-align: center;
   padding: 0.25em;
+}
+
+.head-fig {
+  height: auto;
 }
 
 /*########################
